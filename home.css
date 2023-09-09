@@ -1,0 +1,333 @@
+body{
+    background-color: #f6f5f5;
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo-pic img {
+    width :50%;
+    height:auto;
+    
+}
+
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    font-size: 22px;
+}
+
+.active{
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+.text-container{
+    position: absolute;
+    left: 5%;
+    top: 13%;
+
+}
+
+.text-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #000;
+    font-size: 60px;
+}
+
+.text-container p span{
+    color: orange;
+}
+
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.btn{
+    background-color: orange;
+    color: #000;
+}
+
+button:active{
+    transform:scale(1.1);
+}
+
+.model{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translate(-70%);
+}
+.services{
+    height: 600px;
+    background-color: white;
+    padding: 2% 10% 0px 10%;
+    margin: 50px 0px;
+}
+.services p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #3e3e3d;
+    font-size: 30px;
+    line-height: 0px;
+}
+.services-text p{
+    display:flex;
+    justify-content:center;
+    font-size: 50px;
+    color:orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box-1, .box-2, .box-3{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1{
+    background-image: url("img/img6.webp");
+}
+
+.box-2{
+    background-image: url("img/img6.webp");
+}
+
+.box-3{
+    background-image: url("img/img6.webp");
+}
+.box-1 span,
+.box-2 span,
+.box-3 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+   
+}
+
+.box-1 .heading,.box-1 .details,
+.box-2 .heading,.box-2 .details,
+.box-3 .heading,.box-3 .details{
+    color: white;
+}
+
+.box-1 .heading,
+.box-2 .heading,
+.box-3 .heading{
+    display:flex;
+    justify-content:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+   
+
+}
+
+.box-1 .details,
+.box-2 .details,
+.box-3 .details{
+    display:flex;
+    justify-content:center;
+    font-size: 20px;
+   
+}
+
+.box-1 button,
+.box-2 button,
+.box-3 button{
+    width: 130px;
+    height: 30px;
+    background-color:white;
+    border:none;
+    outline:none;
+    border-radius:5px;
+}
+
+.contact-us{
+    width:100%;
+    height:280px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+}
+
+.contact-us p{
+    color:orange;
+    font-size:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    border-bottom:2px solid white;
+}
+
+.contact-us button{
+    width: 200px;
+    height: 40px;
+    background-color:white;
+    outline:none;
+    border:none;
+    font-size:14px;
+    font-weight:bold;
+}
+
+footer{
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+
+}
+
+footer p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+
+}
+
+footer p:nth-child(1){
+    font-size:30px;
+    font-weight:bold;
+    color:#191919;
+    line-height:10px;
+
+}
+
+footer p:nth-child(2){
+    font-size:16px;
+    color:#7e7d7d;
+    width: 600px;
+    text-align:center;
+}
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+
+.social-icons{
+    display:flex;
+
+}
+
+.copyright{
+    color:#565555;
+    font-size:15px;
+    position:absolute;
+    left:50%;
+    bottom: 10px;
+    transform:translateX(-50%)
+}
+
+.social-icons i{
+    color:#000000;
+
+}
+
+.social-icons a:hover,
+.a-social-b a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.a-social-b a:hover i{
+    color:orange;
+    transition: all ease 0.5s;
+}
+
+.a-social-b{
+    position:fixed;
+    top:50%;
+    right:0px;
+    transform: translateY(-50%)
+
+}
+
+
+.a-social-b a{ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 50px;
+    height: 50px;
+    padding:0px;
+    margin:0px;
+    line-height: 0px;
+    background-color:orange;
+    border:1px solid #cbcbcb;
+    box-shadow:2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.a-social-b i{
+    color:#2b2b2b;
+    font-size:20px;
+}

@@ -1,0 +1,20 @@
+
+.bg-light {
+    background-color: #fdfdfd!important;
+}
+.a:nav-link{
+	margin-right: 15px;
+	color:orange;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+	background-color:#d9c7b8;
+}
+.navbar-brand{
+	color: #4C4B4B;
+	letter-spacing: 0.5px;
+}
+h2{
+	color: orange;
+	letter-spacing: 0.5px;
+	font-family: raleway;
+}
